@@ -1,0 +1,133 @@
+.wrapper{
+        position: relative;
+        overflow: hidden;
+        min-height: 100%;
+        background-color: yellowgreen;
+}
+.img{
+    position: relative;
+    width: 100%;
+    border: solid darkgreen 5px;
+    padding: 20px;
+}
+.img__images{
+    position: relative;
+    padding: 50px;
+}
+.img__images-one{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background: url(../img/part_001.jpeg) no-repeat;
+    background-size: contain;
+}
+.img__images-one:hover{
+    transform: scale(3);
+}
+.img__images-two{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../img/part_002.jpeg) no-repeat;
+    background-size: contain;
+}
+.img__images-two:hover{
+    transform: rotateX(40deg);
+}
+.img__images-three{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../img/part_003.jpeg) no-repeat ;
+    background-size: contain;
+}
+.img__images-three:hover{
+    transform: translate(20px,30px);
+}    
+
+.img__images-four{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../img/part_004.jpeg) no-repeat;
+    background-size: contain;
+    }
+    .img__images-four:hover{
+        transform:skew(20deg,20deg);
+    }
+.img__images-five{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../img/part_005.webp) no-repeat;
+    background-size: contain; 
+}
+.img__images-five:hover{
+    transform-origin: 30px 20px;
+    transform: rotate(20deg);
+}
+.img__images-six{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../img/part_006.jpeg) no-repeat;
+    background-size: contain; 
+}
+.img__images-six:hover{
+    transform: rotateY(180deg);
+	transition: all 0.3s ease 0s;
+}
+.car{
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    height: 800px;
+}
+.car__items-one{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 120px;
+    height: 120px;
+    background: url(../img/image_part_001.png) no-repeat;
+    background-size: contain; 
+
+}
+.car__items-two{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    width: 120px;
+    height: 120px;
+    background: url(../img/image_part_002.png) no-repeat;
+    background-size: contain; 
+}
+.car__items-tree{
+    position: absolute;
+    top: 167px;
+    left: 100px;
+    width: 120px;
+    height: 120px;
+    background: url(../img/image_part_003.png) no-repeat;
+    background-size: contain; 
+}
+.car__items-four{
+    position: absolute;
+    top: 167px;
+    left: 220px;
+    width: 120px;
+    height: 120px;
+    background: url(../img/image_part_004.png) no-repeat;
+    background-size: contain; 
+}
+.car__items-five{
+    width: 1080px;
+    height: 800px;
+
+}
+.car:hover .car__items-five{
+    transform: rotateY(180deg);
+	transition: all 0.3s ease 0s;
+    background:url(../img/zaz.jpeg) no-repeat;
+    background-size: contain; 
+}
